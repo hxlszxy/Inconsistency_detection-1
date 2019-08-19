@@ -1,7 +1,918 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c37b10d-c4b2-4060-a897-944fb31a0657" name="Default Changelist" comment="" />
+    <list default="true" id="4c37b10d-c4b2-4060-a897-944fb31a0657" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cnnvd/cnnvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cnnvd/cnnvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cnnvd/cnnvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cnnvd/split_cnnvd_by_colon/cnnvd_four_colon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cnnvd/split_cnnvd_by_colon/cnnvd_one_colon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cnnvd/split_cnnvd_by_colon/cnnvd_three_colon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cnnvd/split_cnnvd_by_colon/cnnvd_two_colon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cpe-dictionary/cpe_name_dic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cpe-dictionary/cpe_name_dic_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cveid_by_kind/cveid_bypass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cveid_by_kind/cveid_csrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cveid_by_kind/cveid_dirtra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cveid_by_kind/cveid_dos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cveid_by_kind/cveid_execution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cveid_by_kind/cveid_fileinc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cveid_by_kind/cveid_gainpre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cveid_by_kind/cveid_httprs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cveid_by_kind/cveid_infor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cveid_by_kind/cveid_memc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cveid_by_kind/cveid_overflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cveid_by_kind/cveid_sqli.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/cveid_by_kind/cveid_xss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/nvd/nvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/nvd/nvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/nvd/nvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/1_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/1_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/2_clean_softname_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/2_clean_softname_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/3_keep_not_same_version_of_cnnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/3_keep_not_same_version_of_cnnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/3_keep_same_version_of_cnnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/3_keep_same_version_of_cnnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/4_map_version_of_cnnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/4_map_version_of_cnnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/5_get_str_version_of_cnnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/5_get_str_version_of_cnnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/6_remove_bad_version_first.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/6_remove_bad_version_first_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/7_remove_bad_version_second.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/7_remove_bad_version_second_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/8_measure_inconsistency.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/8_measure_inconsistency_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/9_get_result_by_vulnerability_kind.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/9_get_result_by_year.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/1.0/data/softname_version_compare/9_get_result_overall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v1/cnnvd/cnnvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v1/cnnvd/cnnvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v1/cnnvd/cnnvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v1/cnnvd/split_cnnvd_by_colon/cnnvd_four_colon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v1/cnnvd/split_cnnvd_by_colon/cnnvd_one_colon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v1/cnnvd/split_cnnvd_by_colon/cnnvd_three_colon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v1/cnnvd/split_cnnvd_by_colon/cnnvd_two_colon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v1/cpe-dictionary/cpe_name_dic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v1/cpe-dictionary/official-cpe-dictionary_v2.3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v1/cpe-dictionary/official-cpe-dictionary_v2.3.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v1/nvd/nvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v1/nvd/nvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v1/nvd/nvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v1/softname_version_compare/1_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v1/softname_version_compare/1_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v1/softname_version_compare/2_clean_softname_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v1/softname_version_compare/2_clean_softname_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cnnvd/cnnvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cnnvd/cnnvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cnnvd/cnnvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cnnvd/split_cnnvd_by_colon/cnnvd_four_colon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cnnvd/split_cnnvd_by_colon/cnnvd_one_colon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cnnvd/split_cnnvd_by_colon/cnnvd_three_colon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cnnvd/split_cnnvd_by_colon/cnnvd_two_colon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cpe-dictionary/cpe_name_dic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cpe-dictionary/cpe_name_dic_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cpe-dictionary/official-cpe-dictionary_v2.3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cpe-dictionary/official-cpe-dictionary_v2.3.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cveid_by_kind/cveid_bypass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cveid_by_kind/cveid_csrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cveid_by_kind/cveid_dirtra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cveid_by_kind/cveid_dos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cveid_by_kind/cveid_execution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cveid_by_kind/cveid_fileinc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cveid_by_kind/cveid_gainpre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cveid_by_kind/cveid_httprs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cveid_by_kind/cveid_infor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cveid_by_kind/cveid_memc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cveid_by_kind/cveid_overflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cveid_by_kind/cveid_sqli.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/cveid_by_kind/cveid_xss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/nvd/nvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/nvd/nvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/nvd/nvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/1_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/1_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/2_clean_softname_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/2_clean_softname_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/3_keep_same_version_of_cnnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/3_keep_same_version_of_cnnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/4_map_version_of_cnnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/4_map_version_of_cnnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/5_get_str_version_of_cnnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/5_get_str_version_of_cnnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/6_remove_bad_version_first.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/6_remove_bad_version_first_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/7_remove_bad_version_second.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/7_remove_bad_version_second_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/8_measure_inconsistency.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/8_measure_inconsistency_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/9_get_result_by_vulnerability_kind.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/9_get_result_by_year.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v2_2019.5.7/softname_version_compare/9_get_result_overall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cnnvd/cnnvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cnnvd/cnnvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cnnvd/cnnvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cnnvd/split_cnnvd_by_colon/cnnvd_four_colon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cnnvd/split_cnnvd_by_colon/cnnvd_one_colon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cnnvd/split_cnnvd_by_colon/cnnvd_three_colon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cnnvd/split_cnnvd_by_colon/cnnvd_two_colon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cpe-dictionary/cpe_name_dic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cpe-dictionary/cpe_name_dic_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cpe-dictionary/official-cpe-dictionary_v2.3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cpe-dictionary/official-cpe-dictionary_v2.3.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cveid_by_kind/cveid_bypass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cveid_by_kind/cveid_csrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cveid_by_kind/cveid_dirtra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cveid_by_kind/cveid_dos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cveid_by_kind/cveid_execution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cveid_by_kind/cveid_fileinc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cveid_by_kind/cveid_gainpre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cveid_by_kind/cveid_httprs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cveid_by_kind/cveid_infor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cveid_by_kind/cveid_memc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cveid_by_kind/cveid_overflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cveid_by_kind/cveid_sqli.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/cveid_by_kind/cveid_xss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/nvd/nvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/nvd/nvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/nvd/nvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/1_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/1_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/2_clean_softname_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/2_clean_softname_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/3_keep_same_version_of_cnnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/3_keep_same_version_of_cnnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/4_map_version_of_cnnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/4_map_version_of_cnnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/5_get_str_version_of_cnnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/5_get_str_version_of_cnnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/6_remove_bad_version_first.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/6_remove_bad_version_first_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/7_remove_bad_version_second.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/7_remove_bad_version_second_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/8_measure_inconsistency.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/8_measure_inconsistency_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/9_get_result_by_vulnerability_kind.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/9_get_result_by_year.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/data_v3_2019.5.10/softname_version_compare/9_get_result_overall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/师姐代码调试.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNNVD/我的代码调试_对应1.0程序.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/.idea/1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/cnvd_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/cpe_dic_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cnvd/cnvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cnvd/cnvd_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cnvd/cnvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cnvd/cnvd_softname_and_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cnvd/split_cnvd_by_comma/cnvd_five_comma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cnvd/split_cnvd_by_comma/cnvd_four_comma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cnvd/split_cnvd_by_comma/cnvd_one_comma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cnvd/split_cnvd_by_comma/cnvd_three_comma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cnvd/split_cnvd_by_comma/cnvd_two_comma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cnvd/split_cnvd_by_comma/cnvd_zero_comma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cnvd/split_cnvd_by_nonalpha/cnvd_nonalpha.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cpe-dictionary/cpe_name_dic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cpe-dictionary/cpe_name_dic_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cveid_by_kind/cveid_bypass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cveid_by_kind/cveid_csrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cveid_by_kind/cveid_dirtra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cveid_by_kind/cveid_dos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cveid_by_kind/cveid_execution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cveid_by_kind/cveid_fileinc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cveid_by_kind/cveid_gainpre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cveid_by_kind/cveid_httprs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cveid_by_kind/cveid_infor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cveid_by_kind/cveid_memc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cveid_by_kind/cveid_overflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cveid_by_kind/cveid_sqli.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/cveid_by_kind/cveid_xss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/nvd/nvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/nvd/nvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/nvd/nvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/data/softname_version_compare.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/diff_of_cnnvd_and_cnvd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/entry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/get_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/nvd_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/program_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.0/program_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/.idea/1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/cnvd_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/cpe_dic_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cnvd/cnvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cnvd/cnvd_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cnvd/cnvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cnvd/cnvd_softname_and_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cnvd/split_cnvd_by_comma/cnvd_five_comma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cnvd/split_cnvd_by_comma/cnvd_four_comma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cnvd/split_cnvd_by_comma/cnvd_one_comma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cnvd/split_cnvd_by_comma/cnvd_three_comma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cnvd/split_cnvd_by_comma/cnvd_two_comma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cnvd/split_cnvd_by_comma/cnvd_zero_comma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cnvd/split_cnvd_by_nonalpha/cnvd_nonalpha.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cpe-dictionary/cpe_name_dic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cpe-dictionary/cpe_name_dic_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cveid_by_kind/cveid_bypass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cveid_by_kind/cveid_csrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cveid_by_kind/cveid_dirtra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cveid_by_kind/cveid_dos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cveid_by_kind/cveid_execution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cveid_by_kind/cveid_fileinc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cveid_by_kind/cveid_gainpre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cveid_by_kind/cveid_httprs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cveid_by_kind/cveid_infor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cveid_by_kind/cveid_memc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cveid_by_kind/cveid_overflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cveid_by_kind/cveid_sqli.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/cveid_by_kind/cveid_xss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/nvd/nvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/nvd/nvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/nvd/nvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/reason_of_inconsistency/0_cnnvd_measure_inconsistency.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/reason_of_inconsistency/0_cnvd_measure_inconsistency.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/reason_of_inconsistency/1_loose_match_diff_of_cnnvd_and_cnvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/reason_of_inconsistency/1_loose_match_diff_of_cnnvd_and_cnvd_print.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/reason_of_inconsistency/1_strict_match_diff_of_cnnvd_and_cnvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/reason_of_inconsistency/1_strict_match_diff_of_cnnvd_and_cnvd_print.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/reason_of_inconsistency/2_loose_match_false_of_cnnvd_and_cnvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/reason_of_inconsistency/2_loose_match_of_inconsitency_reasoncnnvd.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/reason_of_inconsistency/2_strict_match_false_of_cnnvd_and_cnvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/1_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/1_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/2_clean_softname_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/2_clean_softname_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/3_keep_same_version_of_cnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/3_keep_same_version_of_cnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/4_map_version_of_cnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/4_map_version_of_cnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/5_get_str_version_of_cnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/5_get_str_version_of_cnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/6_remove_bad_version_first.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/6_remove_bad_version_first_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/7_remove_bad_version_second.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/7_remove_bad_version_second_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/8_measure_inconsistency.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/8_measure_inconsistency_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/9_get_result_by_vulnerability_kind.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/9_get_result_by_year.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/data/softname_version_compare/9_get_result_overall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/diff_of_cnnvd_and_cnvd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/entry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/get_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/nvd_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/program_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.1/program_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cnvd/cnvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cnvd/cnvd_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cnvd/cnvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cnvd/cnvd_softname_and_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cnvd/split_cnvd_by_comma/cnvd_five_comma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cnvd/split_cnvd_by_comma/cnvd_four_comma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cnvd/split_cnvd_by_comma/cnvd_one_comma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cnvd/split_cnvd_by_comma/cnvd_three_comma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cnvd/split_cnvd_by_comma/cnvd_two_comma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cnvd/split_cnvd_by_comma/cnvd_zero_comma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cnvd/split_cnvd_by_nonalpha/cnvd_nonalpha.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cpe-dictionary/cpe_name_dic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cpe-dictionary/cpe_name_dic_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cveid_by_kind/cveid_bypass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cveid_by_kind/cveid_csrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cveid_by_kind/cveid_dirtra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cveid_by_kind/cveid_dos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cveid_by_kind/cveid_execution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cveid_by_kind/cveid_fileinc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cveid_by_kind/cveid_gainpre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cveid_by_kind/cveid_httprs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cveid_by_kind/cveid_infor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cveid_by_kind/cveid_memc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cveid_by_kind/cveid_overflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cveid_by_kind/cveid_sqli.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/cveid_by_kind/cveid_xss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/nvd/nvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/nvd/nvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/nvd/nvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/0_cnnvd_measure_inconsistency.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/0_cnvd_measure_inconsistency.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/1_loose_match_diff_of_cnnvd_and_cnvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/1_loose_match_diff_of_cnnvd_and_cnvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/1_loose_match_diff_of_cnnvd_and_cnvd_print.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/1_strict_match_diff_of_cnnvd_and_cnvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/1_strict_match_diff_of_cnnvd_and_cnvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/1_strict_match_diff_of_cnnvd_and_cnvd_print.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/2_loose_match_false_of_cnnvd_and_cnvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/2_loose_match_false_of_cnnvd_and_cnvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/2_strict_match_false_of_cnnvd_and_cnvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/2_strict_match_false_of_cnnvd_and_cnvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/3_get_multiple_match_of_cnvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/~$2_loose_match_of_inconsitency_reasoncnnvd.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/探究不一致性根源1_loose_match_of_inconsitency_reason.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/探究不一致性根源_CNNVD与NVD.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/探究不一致性根源_CNNVD与NVD_v2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/探究不一致性根源_CNVD与NVD.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/reason_of_inconsistency/探究不一致性根源_CNVD与NVD_v2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/1_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/1_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/2_clean_softname_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/2_clean_softname_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/3_keep_not_same_version_of_cnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/3_keep_not_same_version_of_cnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/3_keep_same_version_of_cnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/3_keep_same_version_of_cnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/4_map_version_of_cnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/4_map_version_of_cnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/5_get_str_version_of_cnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/5_get_str_version_of_cnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/6_remove_bad_version_first.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/6_remove_bad_version_first_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/7_remove_bad_version_second.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/7_remove_bad_version_second_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/8_measure_inconsistency.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/8_measure_inconsistency_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/9_get_result_by_vulnerability_kind.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/9_get_result_by_year.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/1.2/data/softname_version_compare/9_get_result_overall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/反馈/原图/img20190530_cnnvd1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/反馈/原图/img20190530_cnnvd2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/反馈/原图/img20190530_cnvd1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/反馈/原图/img20190530_cnvd2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/反馈/整理/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/反馈/整理/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/反馈/整理/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/反馈/整理/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.1_2019.5.13/CNNVD/9_get_result_by_vulnerability_kind.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.1_2019.5.13/CNNVD/9_get_result_by_year.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.1_2019.5.13/CNNVD/9_get_result_overall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.1_2019.5.13/CNVD/9_get_result_by_vulnerability_kind.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.1_2019.5.13/CNVD/9_get_result_by_year.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.1_2019.5.13/CNVD/9_get_result_overall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.1_2019.5.13/软件版本差异性测量_v0.3_2019.5.13.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.2_2019.5.13/实验结果/excel数据/软件版本差异性测量实验结果_v0.1_2019.5.15.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.2_2019.5.13/实验结果/原始数据/CNNVD/9_get_result_by_vulnerability_kind.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.2_2019.5.13/实验结果/原始数据/CNNVD/9_get_result_by_year.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.2_2019.5.13/实验结果/原始数据/CNNVD/9_get_result_overall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.2_2019.5.13/实验结果/原始数据/CNVD/9_get_result_by_vulnerability_kind.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.2_2019.5.13/实验结果/原始数据/CNVD/9_get_result_by_year.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.2_2019.5.13/实验结果/原始数据/CNVD/9_get_result_overall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.2_2019.5.13/实验结果/原始数据/线性拟合结果.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.2_2019.5.13/讨论-问题.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.2_2019.5.13/讨论-问题回复.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.2_2019.5.13/软件版本差异性测量_v0.4_2019.5.14.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.3_2019.5.17/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.3_2019.5.17/软件版本差异性测量/实验结果/excel数据/探究不一致性根源1_loose_match_of_inconsitency_reason.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.3_2019.5.17/软件版本差异性测量/实验结果/excel数据/软件版本差异性测量实验结果_v0.2_2019.5.16.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.3_2019.5.17/软件版本差异性测量/实验结果/原始数据/CNNVD/9_get_result_by_vulnerability_kind.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.3_2019.5.17/软件版本差异性测量/实验结果/原始数据/CNNVD/9_get_result_by_year.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.3_2019.5.17/软件版本差异性测量/实验结果/原始数据/CNNVD/9_get_result_overall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.3_2019.5.17/软件版本差异性测量/实验结果/原始数据/CNVD/9_get_result_by_vulnerability_kind.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.3_2019.5.17/软件版本差异性测量/实验结果/原始数据/CNVD/9_get_result_by_year.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.3_2019.5.17/软件版本差异性测量/实验结果/原始数据/CNVD/9_get_result_overall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.3_2019.5.17/软件版本差异性测量/实验结果/原始数据/线性拟合结果_v2_2019.5.16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.3_2019.5.17/软件版本差异性测量/讨论-问题.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.3_2019.5.17/软件版本差异性测量/讨论-问题回复.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.3_2019.5.17/软件版本差异性测量/软件版本差异性测量_v0.5_2019.5.16.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.4_2019.5.21/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.4_2019.5.21/软件版本差异性测量/实验结果/excel数据/探究不一致性根源1_loose_match_of_inconsitency_reason.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.4_2019.5.21/软件版本差异性测量/实验结果/excel数据/探究不一致性根源_CNNVD与NVD.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.4_2019.5.21/软件版本差异性测量/实验结果/excel数据/探究不一致性根源_CNVD与NVD.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.4_2019.5.21/软件版本差异性测量/实验结果/excel数据/软件版本差异性测量实验结果_v0.2_2019.5.16.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.4_2019.5.21/软件版本差异性测量/实验结果/原始数据/CNNVD/9_get_result_by_vulnerability_kind.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.4_2019.5.21/软件版本差异性测量/实验结果/原始数据/CNNVD/9_get_result_by_year.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.4_2019.5.21/软件版本差异性测量/实验结果/原始数据/CNNVD/9_get_result_overall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.4_2019.5.21/软件版本差异性测量/实验结果/原始数据/CNVD/9_get_result_by_vulnerability_kind.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.4_2019.5.21/软件版本差异性测量/实验结果/原始数据/CNVD/9_get_result_by_year.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.4_2019.5.21/软件版本差异性测量/实验结果/原始数据/CNVD/9_get_result_overall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.4_2019.5.21/软件版本差异性测量/实验结果/原始数据/线性拟合结果_v2_2019.5.16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.4_2019.5.21/软件版本差异性测量/讨论-问题.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.4_2019.5.21/软件版本差异性测量/讨论-问题回复.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.4_2019.5.21/软件版本差异性测量/软件版本差异性测量_v0.6_2019.5.21.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/软件版本差异性测量/实验结果/excel数据/探究不一致性根源1_loose_match_of_inconsitency_reason.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/软件版本差异性测量/实验结果/excel数据/探究不一致性根源_CNNVD与NVD.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/软件版本差异性测量/实验结果/excel数据/探究不一致性根源_CNNVD与NVD_v2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/软件版本差异性测量/实验结果/excel数据/探究不一致性根源_CNVD与NVD.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/软件版本差异性测量/实验结果/excel数据/探究不一致性根源_CNVD与NVD_v2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/软件版本差异性测量/实验结果/excel数据/软件版本差异性测量实验结果_v0.2_2019.5.16.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/软件版本差异性测量/实验结果/原始数据/CNNVD/9_get_result_by_vulnerability_kind.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/软件版本差异性测量/实验结果/原始数据/CNNVD/9_get_result_by_year.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/软件版本差异性测量/实验结果/原始数据/CNNVD/9_get_result_overall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/软件版本差异性测量/实验结果/原始数据/CNVD/9_get_result_by_vulnerability_kind.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/软件版本差异性测量/实验结果/原始数据/CNVD/9_get_result_by_year.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/软件版本差异性测量/实验结果/原始数据/CNVD/9_get_result_overall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/软件版本差异性测量/实验结果/原始数据/线性拟合结果_v2_2019.5.16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/软件版本差异性测量/讨论-问题.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/软件版本差异性测量/讨论-问题回复.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/软件版本差异性测量/软件版本差异性测量_v0.7_2019.5.21.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/软件版本差异性测量/项目报告汇总_v0.1_2019.5.21.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.5_2019.5.21/软件版本差异性测量/项目报告汇总_v0.2_2019.5.21.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/实验结果/excel数据/探究不一致性根源1_loose_match_of_inconsitency_reason.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/实验结果/excel数据/探究不一致性根源_CNNVD与NVD.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/实验结果/excel数据/探究不一致性根源_CNNVD与NVD_v2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/实验结果/excel数据/探究不一致性根源_CNVD与NVD.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/实验结果/excel数据/探究不一致性根源_CNVD与NVD_v2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/实验结果/excel数据/软件版本差异性测量实验结果_v0.2_2019.5.16.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/实验结果/原始数据/CNNVD/9_get_result_by_vulnerability_kind.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/实验结果/原始数据/CNNVD/9_get_result_by_year.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/实验结果/原始数据/CNNVD/9_get_result_overall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/实验结果/原始数据/CNVD/9_get_result_by_vulnerability_kind.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/实验结果/原始数据/CNVD/9_get_result_by_year.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/实验结果/原始数据/CNVD/9_get_result_overall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/实验结果/原始数据/线性拟合结果_v2_2019.5.16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/讨论-问题.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/讨论-问题回复.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/软件版本差异性测量_v0.10_2019.5.31.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/软件版本差异性测量_v0.8_2019.5.24.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/软件版本差异性测量_v0.9_2019.5.30.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/项目报告汇总_v0.1_2019.5.21.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果(CNNVD与CNVD)_v0.6_2019.5.24/软件版本差异性测量/项目报告汇总_v0.2_2019.5.21.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果总体实验结果(CNNVD与CNVD)_老版本ppt/软件版本差异性测量_v0.1_2019.5.7.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果总体实验结果(CNNVD与CNVD)_老版本ppt/软件版本差异性测量_v0.2_2019.5.10.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CNVD/总体实验结果(CNNVD与CNVD)/总体实验结果总体实验结果(CNNVD与CNVD)_老版本ppt/软件版本差异性测量_v0.3_2019.5.13.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/.idea/1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/cpe_dic_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/cve_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cpe-dictionary/cpe_name_dic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cpe-dictionary/cpe_name_dic_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cve/cve_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cve/cve_softname_and_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cve/simple_data_of_cve.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cveid_by_kind/cveid_bypass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cveid_by_kind/cveid_csrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cveid_by_kind/cveid_dirtra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cveid_by_kind/cveid_dos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cveid_by_kind/cveid_execution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cveid_by_kind/cveid_fileinc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cveid_by_kind/cveid_gainpre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cveid_by_kind/cveid_httprs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cveid_by_kind/cveid_infor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cveid_by_kind/cveid_memc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cveid_by_kind/cveid_overflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cveid_by_kind/cveid_sqli.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/cveid_by_kind/cveid_xss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/nvd/nvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/nvd/nvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/nvd/nvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/0_origin/bypass_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/0_origin/csrf_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/0_origin/dirtra_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/0_origin/dos_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/0_origin/execution_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/0_origin/fileinc_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/0_origin/gainpre_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/0_origin/httprs_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/0_origin/infor_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/0_origin/memc_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/0_origin/overflow_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/0_origin/sqli_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/0_origin/xss_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/1_simple_data/simple_data_of_bypass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/1_simple_data/simple_data_of_csrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/1_simple_data/simple_data_of_dirtra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/1_simple_data/simple_data_of_dos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/1_simple_data/simple_data_of_execution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/1_simple_data/simple_data_of_fileinc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/1_simple_data/simple_data_of_gainpre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/1_simple_data/simple_data_of_httprs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/1_simple_data/simple_data_of_infor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/1_simple_data/simple_data_of_memc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/1_simple_data/simple_data_of_overflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/1_simple_data/simple_data_of_sqli.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/1_simple_data/simple_data_of_xss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/2_by_database/simple_data_of_cve.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/2_by_database/simple_data_of_edb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/2_by_database/simple_data_of_openwall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/re_data/2_by_database/simple_data_of_securityfocus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/softname_version_compare/1_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/softname_version_compare/1_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/softname_version_compare/2_clean_softname_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/softname_version_compare/2_clean_softname_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/softname_version_compare/3_keep_not_same_version_of_cve_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/softname_version_compare/3_keep_not_same_version_of_cve_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/data/softname_version_compare/4_inconsistency_of_softname.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/detect_diff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/diff_of_cnnvd_and_cnvd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/entry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/get_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/get_softname_and_version_from_redata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/nvd_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/program_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/program_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE/1.0/useful.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/.idea/1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/cpe_dic_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/cpe-dictionary/cpe_name_dic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/cpe-dictionary/cpe_name_dic_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/cveid_by_kind/cveid_bypass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/cveid_by_kind/cveid_csrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/cveid_by_kind/cveid_dirtra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/cveid_by_kind/cveid_dos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/cveid_by_kind/cveid_execution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/cveid_by_kind/cveid_fileinc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/cveid_by_kind/cveid_gainpre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/cveid_by_kind/cveid_httprs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/cveid_by_kind/cveid_infor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/cveid_by_kind/cveid_memc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/cveid_by_kind/cveid_overflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/cveid_by_kind/cveid_sqli.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/cveid_by_kind/cveid_xss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/edb/edb_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/edb/edb_softname_and_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/edb/simple_data_of_edb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/nvd/nvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/nvd/nvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/nvd/nvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/0_origin/bypass_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/0_origin/csrf_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/0_origin/dirtra_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/0_origin/dos_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/0_origin/execution_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/0_origin/fileinc_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/0_origin/gainpre_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/0_origin/httprs_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/0_origin/infor_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/0_origin/memc_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/0_origin/overflow_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/0_origin/sqli_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/0_origin/xss_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/1_simple_data/simple_data_of_bypass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/1_simple_data/simple_data_of_csrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/1_simple_data/simple_data_of_dirtra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/1_simple_data/simple_data_of_dos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/1_simple_data/simple_data_of_execution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/1_simple_data/simple_data_of_fileinc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/1_simple_data/simple_data_of_gainpre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/1_simple_data/simple_data_of_httprs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/1_simple_data/simple_data_of_infor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/1_simple_data/simple_data_of_memc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/1_simple_data/simple_data_of_overflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/1_simple_data/simple_data_of_sqli.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/1_simple_data/simple_data_of_xss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/2_by_database/simple_data_of_cve.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/2_by_database/simple_data_of_edb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/2_by_database/simple_data_of_openwall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/re_data/2_by_database/simple_data_of_securityfocus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/softname_version_compare/1_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/softname_version_compare/1_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/softname_version_compare/2_clean_softname_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/softname_version_compare/2_clean_softname_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/softname_version_compare/3_keep_not_same_version_of_edb_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/softname_version_compare/3_keep_not_same_version_of_edb_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/data/softname_version_compare/4_inconsistency_of_softname.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/detect_diff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/diff_of_cnnvd_and_cnvd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/edb_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/entry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/get_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/get_softname_and_version_from_redata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/nvd_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/program_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/program_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EDB/1.0/useful.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cnvd/cnvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cnvd/cnvd_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cnvd/cnvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cnvd/cnvd_softname_and_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cnvd/split_cnvd_by_nonalpha/cnvd_nonalpha.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cpe-dictionary/cpe_name_dic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cpe-dictionary/cpe_name_dic_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cveid_by_kind/cveid_bypass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cveid_by_kind/cveid_csrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cveid_by_kind/cveid_dirtra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cveid_by_kind/cveid_dos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cveid_by_kind/cveid_execution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cveid_by_kind/cveid_fileinc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cveid_by_kind/cveid_gainpre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cveid_by_kind/cveid_httprs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cveid_by_kind/cveid_infor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cveid_by_kind/cveid_memc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cveid_by_kind/cveid_overflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cveid_by_kind/cveid_sqli.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/cveid_by_kind/cveid_xss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/nvd/nvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/nvd/nvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/nvd/nvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/softname_version_compare/1_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/softname_version_compare/1_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/softname_version_compare/2_clean_softname_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/softname_version_compare/2_clean_softname_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/softname_version_compare/3_keep_not_same_version_of_cnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.0/data/softname_version_compare/3_keep_not_same_version_of_cnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/.idea/1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/cpe_dic_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/cpe-dictionary/cpe_name_dic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/cpe-dictionary/cpe_name_dic_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/cveid_by_kind/cveid_bypass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/cveid_by_kind/cveid_csrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/cveid_by_kind/cveid_dirtra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/cveid_by_kind/cveid_dos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/cveid_by_kind/cveid_execution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/cveid_by_kind/cveid_fileinc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/cveid_by_kind/cveid_gainpre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/cveid_by_kind/cveid_httprs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/cveid_by_kind/cveid_infor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/cveid_by_kind/cveid_memc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/cveid_by_kind/cveid_overflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/cveid_by_kind/cveid_sqli.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/cveid_by_kind/cveid_xss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/nsfocus/cnvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/nsfocus/cnvd_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/nsfocus/cnvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/nsfocus/cnvd_softname_and_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/nsfocus/split_cnvd_by_nonalpha/cnvd_nonalpha.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/nvd/nvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/nvd/nvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/nvd/nvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/softname_version_compare/1_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/softname_version_compare/1_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/softname_version_compare/2_clean_softname_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/softname_version_compare/2_clean_softname_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/softname_version_compare/3_keep_not_same_version_of_cnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/data/softname_version_compare/3_keep_not_same_version_of_cnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/detect_diff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/diff_of_cnnvd_and_cnvd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/entry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/get_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/nsfocus_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/nvd_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/program_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/program_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1/useful.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/.idea/1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/cpe_dic_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/cpe-dictionary/cpe_name_dic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/cpe-dictionary/cpe_name_dic_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/cveid_by_kind/cveid_bypass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/cveid_by_kind/cveid_csrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/cveid_by_kind/cveid_dirtra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/cveid_by_kind/cveid_dos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/cveid_by_kind/cveid_execution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/cveid_by_kind/cveid_fileinc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/cveid_by_kind/cveid_gainpre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/cveid_by_kind/cveid_httprs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/cveid_by_kind/cveid_infor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/cveid_by_kind/cveid_memc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/cveid_by_kind/cveid_overflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/cveid_by_kind/cveid_sqli.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/cveid_by_kind/cveid_xss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/nvd/nvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/nvd/nvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/nvd/nvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/openwall/openwall_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/openwall/openwall_softname_and_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/openwall/simple_data_of_openwall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/0_origin/bypass_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/0_origin/csrf_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/0_origin/dirtra_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/0_origin/dos_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/0_origin/execution_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/0_origin/fileinc_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/0_origin/gainpre_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/0_origin/httprs_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/0_origin/infor_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/0_origin/memc_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/0_origin/overflow_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/0_origin/sqli_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/0_origin/xss_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/1_simple_data/simple_data_of_bypass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/1_simple_data/simple_data_of_csrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/1_simple_data/simple_data_of_dirtra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/1_simple_data/simple_data_of_dos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/1_simple_data/simple_data_of_execution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/1_simple_data/simple_data_of_fileinc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/1_simple_data/simple_data_of_gainpre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/1_simple_data/simple_data_of_httprs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/1_simple_data/simple_data_of_infor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/1_simple_data/simple_data_of_memc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/1_simple_data/simple_data_of_overflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/1_simple_data/simple_data_of_sqli.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/1_simple_data/simple_data_of_xss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/2_by_database/simple_data_of_cve.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/2_by_database/simple_data_of_edb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/2_by_database/simple_data_of_openwall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/re_data/2_by_database/simple_data_of_securityfocus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/softname_version_compare/1_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/softname_version_compare/1_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/softname_version_compare/2_clean_softname_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/softname_version_compare/2_clean_softname_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/softname_version_compare/3_keep_not_same_version_of_openwall_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/softname_version_compare/3_keep_not_same_version_of_openwall_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/data/softname_version_compare/4_inconsistency_of_softname.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/detect_diff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/diff_of_cnnvd_and_cnvd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/entry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/get_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/get_softname_and_version_from_redata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/nvd_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/openwall_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/program_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/program_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenWall/1.0/useful.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cnvd/cnvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cnvd/cnvd_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cnvd/cnvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cnvd/cnvd_softname_and_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cnvd/split_cnvd_by_nonalpha/cnvd_nonalpha.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cpe-dictionary/cpe_name_dic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cpe-dictionary/cpe_name_dic_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cveid_by_kind/cveid_bypass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cveid_by_kind/cveid_csrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cveid_by_kind/cveid_dirtra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cveid_by_kind/cveid_dos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cveid_by_kind/cveid_execution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cveid_by_kind/cveid_fileinc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cveid_by_kind/cveid_gainpre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cveid_by_kind/cveid_httprs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cveid_by_kind/cveid_infor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cveid_by_kind/cveid_memc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cveid_by_kind/cveid_overflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cveid_by_kind/cveid_sqli.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/cveid_by_kind/cveid_xss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/nvd/nvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/nvd/nvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/nvd/nvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/softname_version_compare/1_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/softname_version_compare/1_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/softname_version_compare/2_clean_softname_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/softname_version_compare/2_clean_softname_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/softname_version_compare/3_keep_not_same_version_of_cnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.0/data/softname_version_compare/3_keep_not_same_version_of_cnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/.idea/1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/cpe_dic_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/cpe-dictionary/cpe_name_dic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/cpe-dictionary/cpe_name_dic_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/cveid_by_kind/cveid_bypass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/cveid_by_kind/cveid_csrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/cveid_by_kind/cveid_dirtra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/cveid_by_kind/cveid_dos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/cveid_by_kind/cveid_execution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/cveid_by_kind/cveid_fileinc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/cveid_by_kind/cveid_gainpre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/cveid_by_kind/cveid_httprs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/cveid_by_kind/cveid_infor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/cveid_by_kind/cveid_memc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/cveid_by_kind/cveid_overflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/cveid_by_kind/cveid_sqli.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/cveid_by_kind/cveid_xss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/nvd/nvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/nvd/nvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/nvd/nvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/securityfocus/cnvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/securityfocus/cnvd_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/securityfocus/cnvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/securityfocus/cnvd_softname_and_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/securityfocus/split_cnvd_by_nonalpha/cnvd_nonalpha.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/softname_version_compare/1_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/softname_version_compare/1_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/softname_version_compare/2_clean_softname_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/softname_version_compare/2_clean_softname_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/softname_version_compare/3_keep_not_same_version_of_cnvd_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/data/softname_version_compare/3_keep_not_same_version_of_cnvd_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/detect_diff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/diff_of_cnnvd_and_cnvd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/entry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/get_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/nvd_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/program_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/program_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/securityfocus_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO/1.1/useful.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/.idea/1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/cpe_dic_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/cpe-dictionary/cpe_name_dic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/cpe-dictionary/cpe_name_dic_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/cpe-dictionary/official-cpe-dictionary_v2.3.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/cveid_by_kind/cveid_bypass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/cveid_by_kind/cveid_csrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/cveid_by_kind/cveid_dirtra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/cveid_by_kind/cveid_dos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/cveid_by_kind/cveid_execution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/cveid_by_kind/cveid_fileinc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/cveid_by_kind/cveid_gainpre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/cveid_by_kind/cveid_httprs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/cveid_by_kind/cveid_infor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/cveid_by_kind/cveid_memc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/cveid_by_kind/cveid_overflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/cveid_by_kind/cveid_sqli.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/cveid_by_kind/cveid_xss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/nvd/nvd_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/nvd/nvd_print_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/nvd/nvd_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/0_origin/bypass_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/0_origin/csrf_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/0_origin/dirtra_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/0_origin/dos_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/0_origin/execution_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/0_origin/fileinc_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/0_origin/gainpre_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/0_origin/httprs_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/0_origin/infor_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/0_origin/memc_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/0_origin/overflow_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/0_origin/sqli_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/0_origin/xss_full_dup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/1_simple_data/simple_data_of_bypass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/1_simple_data/simple_data_of_csrf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/1_simple_data/simple_data_of_dirtra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/1_simple_data/simple_data_of_dos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/1_simple_data/simple_data_of_execution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/1_simple_data/simple_data_of_fileinc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/1_simple_data/simple_data_of_gainpre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/1_simple_data/simple_data_of_httprs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/1_simple_data/simple_data_of_infor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/1_simple_data/simple_data_of_memc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/1_simple_data/simple_data_of_overflow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/1_simple_data/simple_data_of_sqli.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/1_simple_data/simple_data_of_xss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/2_by_database/simple_data_of_cve.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/2_by_database/simple_data_of_edb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/2_by_database/simple_data_of_openwall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/re_data/2_by_database/simple_data_of_securityfocus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/securityfocus/securityfocus_softname_and_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/securityfocus/securityfocus_softname_and_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/securityfocus/simple_data_of_securityfocus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/softname_version_compare/1_origin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/softname_version_compare/1_origin_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/softname_version_compare/2_clean_softname_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/softname_version_compare/2_clean_softname_version_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/softname_version_compare/3_keep_not_same_version_of_securityfocus_and_nvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/softname_version_compare/3_keep_not_same_version_of_securityfocus_and_nvd_print.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/data/softname_version_compare/4_inconsistency_of_softname.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/detect_diff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/diff_of_cnnvd_and_cnvd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/entry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/get_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/get_softname_and_version_from_redata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/nvd_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/program_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/program_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/securityfocus_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SFO_Forum/1.0/useful.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Inconsistency_detection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Inconsistency_detection.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNVD/1.2/entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CNVD/1.2/entry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.0/entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.0/entry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SFO/1.0/entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SFO/1.0/entry.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +924,8 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -50,7 +961,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.0/detect_diff.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
@@ -77,11 +988,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1.0/cnvd_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5400">
-              <caret line="219" selection-start-line="219" selection-end-line="219" />
+            <state relative-caret-position="546">
+              <caret line="279" column="26" selection-start-line="279" selection-start-column="26" selection-end-line="279" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -105,6 +1016,9 @@
       <find>get_cnvd_and_nvd_soft_origin</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -113,17 +1027,17 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-347" />
     <option name="width" value="1346" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,10 +1054,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SFO" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,9 +1114,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -211,7 +1126,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -281,13 +1196,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.0/cnvd_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5400">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1.0/diff_of_cnnvd_and_cnvd.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -298,6 +1206,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="89" column="53" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.0/cnvd_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="279" column="26" selection-start-line="279" selection-start-column="26" selection-end-line="279" selection-end-column="47" />
         </state>
       </provider>
     </entry>
